@@ -45,6 +45,7 @@ object Build : BuildType({
 
     dependencies {
         snapshot(Build1) {
+            reuseBuilds = ReuseBuilds.NO
         }
         snapshot(Project1_Pipeline1) {
             reuseBuilds = ReuseBuilds.NO
