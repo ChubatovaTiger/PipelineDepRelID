@@ -1,6 +1,6 @@
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildFeatures.perfmon
-import jetbrains.buildServer.configs.kotlin.pipelines.*
+//import jetbrains.buildServer.configs.kotlin.pipelines.*
 
 /*
 The settings script is an entry point for defining a TeamCity
