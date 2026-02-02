@@ -48,7 +48,7 @@ object Build : BuildType({
             reuseBuilds = ReuseBuilds.NO
         }
         snapshot(Project1_Pipeline1) {
-            reuseBuilds = ReuseBuilds.NO
+            synchronizeRevisions = false
         }
     }
 })
