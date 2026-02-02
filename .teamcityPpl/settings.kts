@@ -47,7 +47,7 @@ object Build : BuildType({
         snapshot(Build1) {
             reuseBuilds = ReuseBuilds.NO
         }
-        snapshot(Project1_Pipeline1) {
+        snapshot(snapshot(RelativeId("Pipeline1")) { 
             synchronizeRevisions = false
         }
     }
