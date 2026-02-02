@@ -1,6 +1,6 @@
 import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildFeatures.perfmon
-
+import jetbrains.buildServer.configs.kotlin.pipelines.*
 /*
 The settings script is an entry point for defining a TeamCity
 project hierarchy. The script should contain a single call to the
